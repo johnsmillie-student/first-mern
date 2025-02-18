@@ -5,7 +5,7 @@ import cors from 'cors';
 import routes from './routes/todoRoutes'; 
 
 const app = express();
-const PORT = 4000;
+const PORT = 4001;
 
 // DB connection
 mongoose.Promise = global.Promise

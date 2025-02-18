@@ -17,8 +17,4 @@ const routes = (app) => {
   .delete(deleteTodo)
 }
 
-
-
-
-
 export default routes
