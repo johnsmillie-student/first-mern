@@ -6,7 +6,7 @@ const Todos = mongoose.model('Todos', ToDoSchema)
 
 export const addTodo = async (req, res) => {
   let newTodo = new Todos(req.body)
-
+  console.log(newTodo);
   try {
     const todo = await newTodo.save()
     res.json(todo)
